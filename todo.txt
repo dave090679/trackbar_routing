@@ -1,0 +1,2 @@
+# todo list for trackbar_routing #
+* extend the functionality of trackbar_routing to non-winUser-Accessible sliders (e.g. java applications, embeded objects, etc).
