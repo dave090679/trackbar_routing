@@ -37,5 +37,5 @@ class trackbar(IAccessible):
 			winUser.sendMessage(api.getForegroundObject().windowHandle,WM_VSCROLL,winUser.MAKELONG(SB_THUMBPOSITION,newpos),hwnd)
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def chooseNVDAObjectOverlayClasses(self, obj, clsList):
-		if obj.role == controlTypes.ROLE_SLIDER:
+		if (obj.role == controlTypes.ROLE_SLIDER and isinstance(obj, IAccessible)):
 			clsList.insert(0, trackbar)
