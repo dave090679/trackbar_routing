@@ -27,7 +27,7 @@ usage
 - to set the slider to 50%, press the routing key above the middle of the braille display
 - to set the slider to its maximum value press the routing key above the last braille module"""),
 	# version
-	"addon-version" : "1.0",
+	"addon-version" : "1.1",
 	# Author(s)
 	"addon-author" : u"David Parduhn <xkill85@gmx.net>",
 	# URL for the add-on documentation support
