@@ -1,2 +1,3 @@
 # todo list for trackbar_routing #
 * extend the functionality of trackbar_routing to non-winUser-Accessible sliders (e.g. java applications, embeded objects, etc).
+* fix startup Bug: The Addon only works if you reload the plugins using nvda+ctrl+f3 and re-focus a slider; it doesn't work just after (re)starting nvda.
